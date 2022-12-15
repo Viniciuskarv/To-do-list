@@ -1,0 +1,72 @@
+*{
+    padding:0;
+}
+body {
+    background-image:linear-gradient(100deg, rgb(163, 0, 35), rgb(5, 103, 168)) ;
+}
+.container {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.253);
+    top: 30%;
+    left: 35%;
+    margin: 0;
+    border-radius: 20px;
+    height: 50%;
+    width: 400px;
+    text-align: center;
+}
+.container h1 {
+    color: rgb(255, 255, 255);
+}
+.txtInserir{
+    background: rgba(0, 0, 0, 0.212);
+    height: 38px;
+    width: 290px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.644);
+    border-radius: 0 20px 0;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(250, 250, 250);
+    text-align: center;
+}
+.btnInserir, .btnResu{
+    background-color: rgb(105, 53, 73);
+    width: 70px;
+    height: 25px;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    border-color: transparent;
+    cursor: pointer;
+}
+.btnInserir:hover, .btnResu:hover{
+    background: rgb(73, 36, 50);
+}
+
+.taskItem{
+    background: rgba(0, 0, 0, 0.212); 
+    height: 30px;
+    margin: 10px;
+    border-radius: 3px;
+}
+.res p{
+    position: absolute;
+    margin: 0;
+    margin-right: 0;
+    margin: 5px;
+    color: aliceblue;
+    left: 40px;
+}
+.btnResu{
+    margin-top: 2.4px;
+    margin-left: 280px;
+}
+
+.error {
+    border-bottom: 1px solid rgba(250, 101, 101, 0.5);
+}
+.error::placeholder {
+    color: rgba(250, 101, 101, 0.5);
+}
